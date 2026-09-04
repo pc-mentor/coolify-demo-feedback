@@ -7,7 +7,7 @@ const TALK_SPEAKER = process.env.TALK_SPEAKER ?? "Stefan Schwarz · AI-Guys";
 
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col items-center bg-zinc-50 px-6 py-16 font-sans dark:bg-black">
+    <div className="flex flex-1 flex-col items-center bg-gradient-to-b from-teal-50 to-white px-6 py-16 font-sans dark:from-slate-900 dark:to-black">
       <header className="mb-10 flex max-w-2xl flex-col items-center text-center">
         <p className="text-sm font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
           Wie hat dir der Vortrag gefallen?
